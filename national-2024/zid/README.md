@@ -26,6 +26,6 @@ Maintaining `s1` and `s2` avoids recomputing them from scratch at every height, 
 `per[i][j] = sum over l = 0..j of ( per[i-1][l] * dp[N][j-l] )`, for `0 <= j <= K`
 - **Answer:** `per[M][K]`
 
-This last idea leads to the optimization that gives 100 points. Since we're always doing the same dynamic, always using the same 'vector' (dp[N][i], with N being fixed), we can implement a sort of fast matrix multiplication. The base array will be dp[N][i] and the DP keeps it's definition. We also observe that we can get rid of the height dimension, since we're always be working with the same height *N*. The answer will be ans[K].
+This last idea leads to the optimization that gives 100 points. Since we're always doing the same dynamic, always using the same 'vector' (`dp[N][i]`, with N being fixed), we can implement a sort of fast matrix multiplication. The base array will be `dp[N][i]` and the DP keeps it's definition. We also observe that we can get rid of the height dimension, since we're always be working with the same height *N*. The answer will be `ans[K]`.
 
 **Complexity:** O(NK + K^2 log M)
