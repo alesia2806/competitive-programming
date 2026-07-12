@@ -10,6 +10,7 @@ Solutions to some of the problems from the Romanian National Olympiad of Informa
 |---|---|---|---|
 | 2024 | [Detonator](grade-11-12/national-2024/detonator/) | Greedy | Min-heap scheduling on pyramid |
 | 2024 | [Zid](grade-11-12/national-2024/zid/) | DP + Combinatorics | DP on column + fast exponentiation |
+| 2021 | [Bisortare](grade-11-12/national-2021/bisortare/) | Binary Indexed Trees | Greedy |
 
 ### County Stage
 
@@ -18,4 +19,7 @@ Solutions to some of the problems from the Romanian National Olympiad of Informa
 | 2025 | [Aventura](grade-11-12/county-2025/aventura/) | Graphs | Topological sort (Kahn's algorithm) |
 | 2025 | [Cromatic](grade-11-12/county-2025/cromatic/) | Combinatorics | Permutation ranking/unranking |
 | 2025 | [Experimente](grade-11-12/county-2025/experimente/) | Data Structures | Dynamic segment tree / interval set (two solutions) |
+| 2024 | [Acoperire](grade-11-12/county-2024/acoperire/) | Greedy | Binary search on answer + greedy interval cover |
+| 2024 | [Birocratie](grade-11-12/county-2024/birocratie/) | DP | DP on anti-diagonals |
+| 2024 | [Nestemate](grade-11-12/county-2024/nestemate/) | Graphs | BFS on value graph |
 
