@@ -22,6 +22,6 @@ Under this constraint, the problem was much easier and my heap solution worked, 
 
 **Preprocessing:** For each cell, cap its time by the minimum of its two parents' times (the bombs it unlocks). A bomb can't be useful if a parent explodes first anyway. 
 
-**Greedy simulation with a max-heap:** Process bombs in order of decreasing available time. At each step `t`, the bomb being processed must satisfy `T[i][j] - t >= X`. A bomb becomes available once both its children have been processed. Track the minimum `T[i][j] - t` across all processed bombs. That minimum is the answer X.
+**Greedy simulation with a min-heap:** Process bombs in order of increasing available time. At each step `t`, the bomb being processed must satisfy `T[i][j] - t >= X`. A bomb becomes available once both its children have been processed. Track the minimum `T[i][j] - t` across all processed bombs. That minimum is the answer X.
 
 **Complexity:** O(N^2 log N) per test
